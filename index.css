@@ -1,0 +1,150 @@
+.card-img-top {
+    object-fit: cover;
+    height: 15vw;
+}
+
+.product_image img {
+    min-width: 200px;
+    max-height: 200px;
+}
+
+.product_name {
+    color: black;
+    font-size: 1.4rem;
+    text-transform: capitalise;
+    font-weight: 500;
+}
+
+.card-title p {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.remove-items p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.page-link {
+    line-height: 16px;
+    width: 45px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #495057;
+}
+
+.page-item input {
+    line-height : 23px;
+    padding: 3px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.page-link:hover {
+    text-decoration: none;
+    color: #495057;
+    outline: none !important;
+}
+
+.page-link:focus {
+    box-shadow: none;
+}
+
+.fa-trash:hover {
+    color: blue;
+}
+
+.img{
+    width: 100%;
+    background-size:cover;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.type {
+    text-align: center;
+    color: #000000;
+}
+
+#no-of-items-nav {
+    color: rgba(0,0,0,.5); 
+    font-size:14px
+}
+
+.carousel-heading {
+    color: #ffffff;
+    bottom:600%;
+    position: absolute;
+    font-size: 60px;
+    width: 100%;
+    font-size:60px;
+    text-align: center;
+    font-family: 'Playball', cursive;
+    filter: brightness(100%);
+   text-decoration: solid black 10px;
+   text-decoration: initial;
+    
+  }
+
+#navigation_container {
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: block;
+    width: 100%;
+  } 
+
+#brand {
+    padding: 0.1rem 2rem; display: block;
+}
+
+#logo {
+    max-width: 200px;
+}
+
+.carousel_img {
+    filter: blur(0.5px);
+}
+.horizontal-align-center {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+}
+.carousel_buttons {
+    display: none;
+}
+
+.heading {
+    text-align: center; 
+    font-size:xx-large; 
+    font-family:cursive;
+    padding: 10px 10px;
+    background-color: beige;
+}
+
+.blur {
+    filter: blur(0.5px);
+}
+
+.shop-item-button {
+    font-size: 0.8rem;
+}
+
+.brand {
+    padding: 0.1rem 2rem; 
+    display: block;
+}
+
+.logo {
+    max-width: 200px;
+}
